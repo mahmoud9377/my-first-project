@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo-text">
+        <div class="contaner">
+          <h3>Bookmarker</h3>
+        </div>
+      </div>
+    </header>
+    <hr/>
+
+    <div class="contant">
+      <div class="contaner">
+        <div class="column">
+          <h2>Bookmark your favorite sites</h2>
+          <p>Site Name</p>
+          <input id="siteName" placeholder="Bookmark Name" type="text" />
+          <p>Site URL</p>
+          <input id="siteUrl" placeholder="website URL" type="url" />
+          <div class="m-auto">
+            <button class="btn btn-primary" onclick="add()">Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+
+    <div class="bookmark">
+      <div class="container">
+        <div id="bookmarkList" class="column"></div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="logo-date">
+        <div class="container">
+          <p>© 2019 Bookmarker Inc.</p>
+        </div>
+      </div>
+    </footer>
+
+    <table class="table w-75 mx-auto">
+      <thead>
+          <tr>
+          <th>siteName</th>
+          <th>siteUrl</th>
+    </tr>
+    </thead>
+      <tbody id="tableBody">
+      <tr>
+      <td> </td>
+      <td> </td>
+      <td>  
+        <button class="btn btn-sm btn-outline-warning"> visit </button> 
+      </td>
+      <td>  
+        <button class="btn btn-sm btn-outline-danger"> delete </button> 
+      </td>
+  </tr>
+  </tbody>
+  
+  </table>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+*
+{
+    box-sizing: border-box;
+    font-family: arial;
+
+}
+.contaner
+{
+    width: 80%;
+    margin: 15px
+}
+header
+{
+    display: block;    
+
+}
+header .contaner
+{
+    color: #AAA;
+    padding: 20px 50px;
+    font-size: 25px;
+}
+h2
+{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-weight: bold;
+}
+h3
+{
+    font-size: calc(1.3rem + .6vw);
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.2;
+    font-weight: bold;
+
+}
+
+.contaner
+{
+    width: 80%;
+    margin: 15px
+}
+.contant
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center center;
+    left: 50px;
+    position: relative;
+}
+.contant .column
+{
+    background-color: #EEE;
+    border: none;
+    text-align: center;
+    padding: 30px;
+}
+.column 
+{
+    display: flex;
+    flex-direction: column;
+}
+.contant .container
+{
+    position: absolute;
+}
+p
+{
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+input
+{
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    font-size: 15px;
+    max-height: 2em;
+}
+.mr-auto .m-auto .mx-auto
+{
+    margin-right: auto;
+}
+.mr-auto, .m-auto, .mx-auto 
+{
+    margin-right: auto;
+}
+.btn 
+{
+    padding: 10px 15px;
+    font-size: 15px;
+    margin: 15px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: fit-content;
+}
+.btn:hover 
+{
+    box-shadow: 2px 5px 3px 0px #888;
+}
+.btn-primary 
+{
+    background-color: #1167c4;
+}
+.btn-primary:hover 
+{
+    background-color: #0a3f77;
+    border: 1px solid #0a3f77;
+}
+footer p 
+{
+    color: #AAA;
+}
+footer .container 
+{
+    padding: 20px 0;
+    font-size: 14px;
+}
+.w-75 {
+    width: 75%!important;
+}
+table
+{
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+    display: table;
+    text-align: start;
+    border-spacing: 2px;
+}
